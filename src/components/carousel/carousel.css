@@ -1,0 +1,35 @@
+.carousel {
+  background-color: coral;
+  height: 63px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left__arrow {
+  padding: 5px;
+  font-size: 30px;
+  background-color: azure;
+  margin: 0 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right__arrow {
+  padding: 5px;
+  font-size: 30px;
+  background-color: azure;
+  margin: 0 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text1 {
+  transform: translateX(0);
+  transition: all 1s linear;
+}
+.text2 {
+  transform: translateX(4000px);
+  transition: all 1s linear;
+}
