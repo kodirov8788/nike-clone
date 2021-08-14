@@ -86,7 +86,7 @@ a:hover {
 }
 .headerContent__listItem {
   font-size: 18px;
-  border-bottom: 3px solid transparent;
+  border-bottom: 5px solid transparent;
   transition: all 0.2s linear;
   padding: 20px 10px;
   margin-bottom: 5px;
@@ -96,7 +96,7 @@ a:hover {
 }
 .headerContent__listItem:hover {
   font-size: 18px;
-  border-bottom: 3px solid blue;
+  border-bottom: 5px solid blue;
   margin-bottom: 5px;
 
 }
@@ -239,7 +239,6 @@ a:hover {
 }
 /* ----------header carousel---------------- */
 .header__carousel {
-  /* background-color: chartreuse; */
   position: absolute;
   top: 95px;
   width: 100%;

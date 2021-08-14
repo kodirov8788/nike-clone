@@ -1,6 +1,6 @@
 .carousel {
   background-color: coral;
-  height: 63px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,11 +25,22 @@
   justify-content: center;
   align-items: center;
 }
+.text__container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .text1 {
+  position: absolute;
   transform: translateX(0);
-  transition: all 1s linear;
+  transition: all 1s ease-out;
+  width: 30%;
+white-space: nowrap;
 }
 .text2 {
+white-space: nowrap;
+  position: absolute;
   transform: translateX(4000px);
-  transition: all 1s linear;
+  transition: all 1s ease-out;
 }
