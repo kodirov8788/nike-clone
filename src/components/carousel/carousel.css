@@ -25,7 +25,7 @@
   justify-content: center;
   align-items: center;
 }
-.text__container{
+.text__container {
   position: relative;
   display: flex;
   align-items: center;
@@ -33,13 +33,16 @@
 }
 .text1 {
   position: absolute;
-  transform: translateX(0);
+  transform: translateX(650px);
   transition: all 1s ease-out;
   width: 30%;
-white-space: nowrap;
+  white-space: nowrap;
+  margin: 0 auto;
 }
 .text2 {
-white-space: nowrap;
+  width: 100%;
+  
+  white-space: nowrap;
   position: absolute;
   transform: translateX(4000px);
   transition: all 1s ease-out;
